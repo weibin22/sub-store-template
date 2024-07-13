@@ -13,12 +13,12 @@
         "address": "h3://dns.alidns.com/dns-query",
         "address_resolver": "dns_resolver",
         "strategy": "prefer_ipv4",
-        "detour": "DIRECT"
+        "detour": "direct"
       },
       {
         "tag": "dns_resolver",
         "address": "tls://223.5.5.5",
-        "detour": "DIRECT"
+        "detour": "direct"
       },
       {
         "tag": "block",
