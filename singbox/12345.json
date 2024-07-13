@@ -361,7 +361,7 @@
           "geoip-cn",
           "geosite-cn"
         ],
-        "outbound": "🎯 全球直连"
+        "outbound": "direct"
       },
       {
         "rule_set": "geosite-geolocation-!cn",
