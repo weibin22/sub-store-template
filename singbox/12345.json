@@ -361,7 +361,7 @@
           "geoip-cn",
           "geosite-cn"
         ],
-        "outbound": "direct"
+        "outbound": "🎯 全球直连"
       },
       {
         "rule_set": "geosite-geolocation-!cn",
@@ -738,7 +738,7 @@
       "tag": "🎯 全球直连",
       "type": "selector",
       "outbounds": [
-        "proxy",
+        "🚀 节点选择",
         "direct",
         "hk",
         "hk-auto",
@@ -759,7 +759,7 @@
       "tag": "🐟 漏网之鱼",
       "type": "selector",
       "outbounds": [
-        "proxy",
+        "🚀 节点选择",
         "direct",
         "hk",
         "hk-auto",
