@@ -236,7 +236,7 @@
         "download_detour": "direct",
         "tag": "geosite-microsoft",
         "url": "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/microsoft.srs"
-      }
+      },
       {
         "type": "remote",
         "format": "binary",
