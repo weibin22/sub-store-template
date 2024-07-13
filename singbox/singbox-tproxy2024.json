@@ -229,6 +229,13 @@
         "download_detour": "direct",
         "tag": "geosite-plutotv",
         "url": "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/plutotv.srs"
+      },
+      {
+        "type": "remote",
+        "format": "binary",
+        "download_detour": "direct",
+        "tag": "geosite-github",
+        "url": "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo-lite/geosite/github.srs"
       }
     ],
     "rules": [
@@ -315,6 +322,7 @@
           "youtubei.googleapis.com",
           "yt3.ggpht.com"
         ],
+        "ip_cidr":["173.194.18.73"],
         "outbound": "📹 油管视频"
       },
       {
@@ -332,6 +340,10 @@
       {
         "rule_set": "geosite-tiktok@!cn",
         "outbound": "🎶 TikTok"
+      },
+      {
+        "rule_set": "geosite-github",
+        "outbound": "gitHub"
       },
       {
         "rule_set": [
@@ -403,7 +415,7 @@
       "outbounds": []
     },
     {
-      "tag": "google",
+      "tag": "gitHub",
       "type": "selector",
       "outbounds": [
         "🚀 节点选择",
