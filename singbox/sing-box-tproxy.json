@@ -357,13 +357,6 @@
         "outbound": "Ⓜ️ 微软服务"
       },
       {
-        "rule_set": [
-          "geoip-cn",
-          "geosite-cn"
-        ],
-        "outbound": "🎯 全球直连"
-      },
-      {
         "rule_set": "geosite-geolocation-!cn",
         "outbound": "🚀 节点选择"
       }
@@ -733,27 +726,7 @@
       ],
       "default": "🚀 节点选择"
     },
-    {
-      "tag": "🎯 全球直连",
-      "type": "selector",
-      "outbounds": [
-        "proxy",
-        "direct",
-        "hk",
-        "hk-auto",
-        "tw",
-        "tw-auto",
-        "jp",
-        "jp-auto",
-        "sg",
-        "sg-auto",
-        "us",
-        "us-auto",
-        "all",
-        "all-auto"
-      ],
-      "default": "direct"
-    },
+
     {
       "tag": "🐟 漏网之鱼",
       "type": "selector",
