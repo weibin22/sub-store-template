@@ -126,20 +126,6 @@
         "download_detour": "direct"
       },
       {
-        "tag": "geoip-google",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo-lite/geoip/google.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-google",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo-lite/geosite/google.srs",
-        "download_detour": "direct"
-      },
-      {
         "tag": "geosite-geolocation-!cn",
         "type": "remote",
         "format": "binary",
@@ -317,13 +303,6 @@
       {
         "rule_set": "openai",
         "outbound": "💬 OpenAi"
-      },
-      {
-        "rule_set": [
-          "geoip-google",
-          "geosite-google"
-        ],
-        "outbound": "google"
       },
       {
         "rule_set": "geosite-speedtest",
