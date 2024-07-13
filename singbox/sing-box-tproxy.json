@@ -806,6 +806,11 @@
       "outbounds": []
     },
     {
+      "tag": "all-auto",
+      "type": "selector",
+      "outbounds": []
+    },
+    {
       "tag": "hk-auto",
       "type": "urltest",
       "outbounds": [],
