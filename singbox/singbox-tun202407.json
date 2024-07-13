@@ -237,6 +237,13 @@
         "tag": "geosite-microsoft",
         "url": "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/microsoft.srs"
       }
+      {
+        "type": "remote",
+        "format": "binary",
+        "download_detour": "direct",
+        "tag": "geosite-plutotv",
+        "url": "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/plutotv.srs"
+      }
     ],
     "rules": [
       {
@@ -321,6 +328,10 @@
       {
         "rule_set": "geosite-speedtest",
         "outbound": "🛜 speedtest"
+      },
+      {
+        "rule_set": "geosite-plutotv",
+        "outbound": "📺 plutotv"
       },
       {
         "rule_set": "geosite-tiktok@!cn",
@@ -752,6 +763,14 @@
     },
     {
       "tag": "🇯🇵 日本节点",
+      "type": "urltest",
+      "outbounds": [],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "1m",
+      "tolerance": 50
+    },
+    {
+      "tag": "🏴‍☠️ IPV6",
       "type": "urltest",
       "outbounds": [],
       "url": "https://www.gstatic.com/generate_204",
